@@ -1,9 +1,14 @@
 # parking-lot-management System Design
 
-## Models to be considerd
+## Models to be considered
 - Parking Slot
 - Ticket
 - Vehicle
+
+## Services to be considered as technical implementation
+- BillService (to calculate charges if we have hourly charges)
+- ParkingService (to help to occupy the parking slot)
+- TicketService (to allocate the token at the time of parking)
 
 ## Operations to be considered
 - Check availability of parking
